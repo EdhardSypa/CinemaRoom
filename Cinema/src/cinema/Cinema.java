@@ -4,7 +4,8 @@ public class Cinema {
 
 	public static void main(String[] args) {
 		TheCinemaRoom room = new TheCinemaRoom(InputData.inputRows(), InputData.inputSeats());
-        while (true) {
+        
+		while (true) {
             switch (InputData.inputMenuOption()) {
                 case 1:
                     room.printRoom();
